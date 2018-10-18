@@ -1,0 +1,29 @@
+body {
+	max-width: 50em;
+	margin: 1em auto;
+}
+
+.stodvar {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 1px solid grey;
+	background-color: grey;
+}
+
+.stodvar a:link {
+	text-decoration:none;
+	color: white;
+}
+
+.stodvar a:visited {
+	text-decoration: none;
+	color: white;
+}
+.stodvar a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+header, footer {
+	padding: 1em;
+}
